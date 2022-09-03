@@ -1,8 +1,7 @@
 # email-sender
 
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)]()
-
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)]()
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/lperezmo/email-sender/blob/main/Based-on-redmail/Redmail-email-bot.ipynb)
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://github.com/lperezmo/email-sender/blob/main/Based-on-yagmail/Yagmail-email-bot.ipynb)
 
 
 ## Contents
