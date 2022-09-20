@@ -3,7 +3,10 @@ $source = 'https://www.logolynx.com/images/logolynx/7a/7ad3ff95b6d705007c110cd67
 # Destination to save the file
 $destination = '$Env:USERPROFILE\Documents\enersys.jpeg'
 #Download the file
-Invoke-WebRequest -Uri $source -OutFile $destination
+#Invoke-WebRequest -Uri $source -OutFile $destination
+
+#Solution 2 - never tried this before
+Invoke-WebRequest $source -OutFile $destination
 
 Function Set-WallPaper {
  
