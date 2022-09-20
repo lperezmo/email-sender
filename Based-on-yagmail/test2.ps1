@@ -1,7 +1,7 @@
 # Source file location
 $source = 'https://www.logolynx.com/images/logolynx/7a/7ad3ff95b6d705007c110cd67ebd5946.jpeg'
 # Destination to save the file
-$destination = '$Env:USERPROFILE\Documents\enersys.jpeg'
+$destination = 'C:\Users\Public\enersys.jpeg'
 #Download the file
 #Invoke-WebRequest -Uri $source -OutFile $destination
 
@@ -84,4 +84,4 @@ public class Params
     $ret = [Params]::SystemParametersInfo($SPI_SETDESKWALLPAPER, 0, $Image, $fWinIni)
 }
  
-Set-WallPaper -Image "$Env:USERPROFILE\Documents\enersys.jpeg" -Style Fit
+Set-WallPaper -Image "C:\Users\Public\enersys.jpeg" -Style Fit
