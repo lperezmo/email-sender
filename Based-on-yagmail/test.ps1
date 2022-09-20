@@ -1,7 +1,7 @@
 # Source file location
 $source = 'https://www.vistafleet.com/wp-content/uploads/2016/02/tall-ship-duck.jpg'
 # Destination to save the file
-$destination = '$Env:USERPROFILE\Documents\ducky.jpg'
+$destination = '%USERPROFILE%\Documents\ducky.jpg'
 #Download the file
 Invoke-WebRequest -Uri $source -OutFile $destination
 
@@ -81,4 +81,4 @@ public class Params
     $ret = [Params]::SystemParametersInfo($SPI_SETDESKWALLPAPER, 0, $Image, $fWinIni)
 }
  
-Set-WallPaper -Image "$Env:USERPROFILE\Documents\ducky.jpg" -Style Fit
+Set-WallPaper -Image "%USERPROFILE%\Documents\ducky.jpg" -Style Fit
