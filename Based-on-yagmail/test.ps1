@@ -3,7 +3,18 @@ $source = 'https://www.vistafleet.com/wp-content/uploads/2016/02/tall-ship-duck.
 # Destination to save the file
 $destination = '%USERPROFILE%\Documents\ducky.jpg'
 #Download the file
-Invoke-WebRequest -Uri $source -OutFile $destination
+#Invoke-WebRequest -Uri $source -OutFile $destination
+
+#Solution 1 - WebClient
+#$url = "http://www.united.no/wp-content/uploads/2014/03/moyesliver.jpg"
+
+#$wc = New-Object System.Net.WebClient
+#$wc.DownloadFile($url, "C:\temp\test.jpg")
+
+
+#Solution 2 - never tried this before
+Invoke-WebRequest $source -OutFile $destination
+
 
 Function Set-WallPaper {
  
