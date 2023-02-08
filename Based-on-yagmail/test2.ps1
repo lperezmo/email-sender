@@ -1,5 +1,5 @@
 # Source file location
-$source = 'https://www.logolynx.com/images/logolynx/7a/7ad3ff95b6d705007c110cd67ebd5946.jpeg'
+$source = 'https://www.giantfreakinrobot.com/wp-content/uploads/2022/08/rick-astley.jpg'
 # Destination to save the file
 $destination = 'C:\Users\Public\enersys.jpeg'
 #Download the file
